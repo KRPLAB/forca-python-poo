@@ -16,7 +16,7 @@ Criar um jogo da **forca clássico** utilizando os conceitos da **programação 
 
 #### Requisitos
 
-#### Classe `Palavra`
+##### Classe `Palavra`
 - **Atributos**:  
   - `palavra` (string)  
   - `letras_acertadas` (lista)
@@ -27,7 +27,7 @@ Criar um jogo da **forca clássico** utilizando os conceitos da **programação 
 
 ---
 
-#### Classe `Jogo`
+##### Classe `Jogo`
 - **Atributos**:  
   - `palavra_atual`  
   - `tentativas_restantes`
@@ -45,7 +45,7 @@ Criar um jogo da **forca clássico** utilizando os conceitos da **programação 
 - O jogador tenta adivinhar as letras da palavra.  
 - Acertando a letra, somente as letras da palavra que já foram descobertas serão mostradas.  
 
-#### Exemplo:
+##### Exemplo:
 - Palavra: `abacate`  
 - Usuário acertou a letra **a**  
 - Exibição: `a_a_a__`
